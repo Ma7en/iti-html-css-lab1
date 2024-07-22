@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.google {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 100px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.google a {
+    text-decoration: none;
+}
+
+.google a:nth-child(1) {
+    color: blue;
+}
+
+.google a:nth-child(2) {
+    color: red;
+}
+
+.google a:nth-child(3) {
+    color: yellow;
+}
+
+.google a:nth-child(4) {
+    color: blue;
+}
+
+.google a:nth-child(5) {
+    color: green;
+}
+
+.google a:nth-child(6) {
+    color: red;
+}
+
+.google div .arrow img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
